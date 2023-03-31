@@ -8,7 +8,7 @@ void* alloctMemory (unsigned int fileSize, unsigned int nameSize) {
 }
 
 int main () {
-	int size = 1; // Maximal 32-bits integer!
+	int size = 4294967295; // Maximal 32-bits integer (4294967295)!
 	int name = 10;
 	alloctMemory(size, name);
 }
